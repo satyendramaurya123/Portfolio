@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #654caf;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content, .contact-options, .feedback-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project-button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4c63af;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #3b4b8a;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.social-link {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.instagram { background-color: #E4405F; }
+.whatsapp { background-color: #25D366; }
+.linkedin { background-color: #0077B5; }
+
+.social-link:hover {
+    opacity: 0.9;
+}
+
+/* Feedback Form */
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.feedback-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback-form input, .feedback-form textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.feedback-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #654caf;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #3b4b8a;
+}

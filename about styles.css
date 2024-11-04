@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: url('backg2.jpg');
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    background-color: #654caf;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about h2 {
+    color: #4c63af;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+p, ul {
+    line-height: 1.6;
+}
+
+.home-button {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    background-color: #af4c4c;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home-button:hover {
+    background-color: #8a433b;
+}

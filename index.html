@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyendra Maurya - Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><span>S</span>atyendra</h2>
+        <nav class="navigation">
+            <a href="About index.html"><b>ABOUT</b></a>
+            <a href="contact.html"><b>CONTACT <i class="fa-solid fa-phone-flip"></i></b></a>
+            <a href="chats.html" class="btn-talk">Let's Talk</a>
+        </nav>
+        <div class="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-container">
+            <!-- Left content section -->
+            <div class="content">
+                <h2>Hi, I'm <span class="floating">Satyendra Maurya</span></h2>
+                <h4>Frontend Developer</h4>
+                <p>Pursuing B.Tech in CSE</p>
+                <div class="btn-group">
+                    <a href="frelancer.html">Freelancer</a>
+                    <a href="projects index.html">See Projects</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/satyendra-maurya-6286a6297/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/satyendramaurya123"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/its__satyendramaurya"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- Right image section -->
+            <div class="image-container">
+                <img src="heroimg.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navigation = document.querySelector('.navigation');
+        hamburger.addEventListener('click', () => {
+            navigation.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
